@@ -5,5 +5,15 @@ public class SepedaMoto extends Sepeda{
     
     void throttle(){
         System.out.println("NOOOOSSSSS...!!!");
-    }  
+    }
+
+    public String getJenisMoto() {
+        return jenisMoto;
+    }
+
+    public void setJenisMoto(String jenisMoto) {
+        this.jenisMoto = jenisMoto;
+    }
+    
+    
 }
